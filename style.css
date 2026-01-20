@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+
+.secondry-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.landing-img{
+    width: 500px;
+   height: 300px;
+}
+
+.container{
+    display: flex;
+    align-self: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+.main{
+    margin-right: 100px;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    color: #f9faf8;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+
+.dishes-section{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.dishes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#dish{
+    border-radius: 20px;
+}
+
+.dishes-heading{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 16px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.quote{
+    width: 600px;
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.call-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.call-container{
+    width: 600px;
+    height: 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#call-h{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.call p{
+    color: #f9faf8;
+    font-weight: 200;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #f9faf8;
+}
+
+
